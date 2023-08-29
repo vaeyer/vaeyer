@@ -1,5 +1,7 @@
 /* global Fluid */
 
+
+
 Fluid.boot = {};
 
 Fluid.boot.registerEvents = function() {

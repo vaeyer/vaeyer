@@ -1,0 +1,77 @@
+body {
+	background-color: #ffffe0;
+}
+#header{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#header .title{
+	font: bold 50px Arial;
+	color: #905214;
+	margin: 0 auto;
+}
+#header .author{
+	font-size: 15px;
+	margin: 0 auto;
+	text-align: center;
+}
+#header .wrapper{
+    display: flex;
+    justify-content: space-between;/*设置弹性盒子元素在主轴的对齐方式*/
+    width: 500px;
+    margin: 5px auto;
+}
+#header .wrapper #txt{
+	color: #fff;
+}
+#header .wrapper #score{
+	color: #fff;
+	font-size: 20px;
+	vertical-align: middle;/*设置元素的的垂直对齐，把此元素放在父元素的中部*/
+}
+#header .score-wrapper{
+	width: 100px;
+	background-color: #f8c91d;
+	padding: 6px;
+	border-radius: 6px;
+}
+#header .newgame-wrapper #newGame{
+	width: 100px;
+	display: block;
+	background-color: #60c322;
+	text-decoration: none;/*消除链接下划线*/
+	padding: 6px;
+	border-radius: 6px;
+    color: #fff;
+}
+#header .newgame-wrapper #newGame:hover{
+    background-color: #b8df5a;
+}
+
+.grid-container{
+	top:20px!important;
+	width: 500px!important;
+	height: 500px!important;
+	padding: 20px!important;
+	background-color: #bbada0;
+	border-radius: 10px;
+	margin: 10px auto;
+	position: relative;
+}
+.grid-container .grid-cell{
+    width: 100px;
+    height: 100px;
+    background-color: #ccc0b3;
+    border-radius: 6px;
+    position: absolute;
+}
+.grid-container .num-cell{
+    background-color: #f8c91d;
+    border-radius: 6px;
+    position: absolute;
+    font: bold 50px Arial;
+    text-align: center;
+    line-height:100px;/*设置行高一样是文本达到垂直居中*/
+}
