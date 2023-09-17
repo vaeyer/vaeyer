@@ -1,4 +1,4 @@
-var nums = new Array();
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>var nums = new Array();
 var score=0;
 var hasDoubleAdd=new Array();//用来解决单元格一次出现重复叠加
 

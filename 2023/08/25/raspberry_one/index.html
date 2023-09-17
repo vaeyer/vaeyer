@@ -16,15 +16,15 @@
   <meta name="author" content="Xiaofeng Qiu">
   <meta name="keywords" content="">
   
-    <meta name="description" content="一、安装树莓派系统及配置树莓派1、下载树莓派系统Raspberry Pi OS（Raspbian）：  下载地址  https:&#x2F;&#x2F;downloads.raspberrypi.org&#x2F;raspios_armhf_latest  默认账号：  &amp;ensp;&amp;ensp;Username: pi Password: raspberry Ubuntu MATE for the Raspberry Pi：">
+    <meta name="description" content="一、安装树莓派系统及配置树莓派下载树莓派系统Raspberry Pi OS（Raspbian）：  下载地址  https:&#x2F;&#x2F;downloads.raspberrypi.org&#x2F;raspios_armhf_latest  默认账号：  &amp;ensp;&amp;ensp;Username: pi Password: raspberry Ubuntu MATE for the Raspberry Pi：  下">
 <meta property="og:type" content="article">
 <meta property="og:title" content="树莓派基础配置及常见问题">
 <meta property="og:url" content="http://example.com/2023/08/25/raspberry_one/index.html">
 <meta property="og:site_name" content="一秋小风">
-<meta property="og:description" content="一、安装树莓派系统及配置树莓派1、下载树莓派系统Raspberry Pi OS（Raspbian）：  下载地址  https:&#x2F;&#x2F;downloads.raspberrypi.org&#x2F;raspios_armhf_latest  默认账号：  &amp;ensp;&amp;ensp;Username: pi Password: raspberry Ubuntu MATE for the Raspberry Pi：">
+<meta property="og:description" content="一、安装树莓派系统及配置树莓派下载树莓派系统Raspberry Pi OS（Raspbian）：  下载地址  https:&#x2F;&#x2F;downloads.raspberrypi.org&#x2F;raspios_armhf_latest  默认账号：  &amp;ensp;&amp;ensp;Username: pi Password: raspberry Ubuntu MATE for the Raspberry Pi：  下">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-08-25T05:28:06.000Z">
-<meta property="article:modified_time" content="2023-08-26T07:45:27.956Z">
+<meta property="article:modified_time" content="2023-09-17T11:04:52.365Z">
 <meta property="article:author" content="Xiaofeng Qiu">
 <meta property="article:tag" content="树莓派配置">
 <meta name="twitter:card" content="summary_large_image">
@@ -275,7 +275,7 @@
         
         
         
-          31 分钟
+          30 分钟
         
       </span>
     
@@ -317,7 +317,7 @@
             
               <div class="markdown-body">
                 
-                <h3 id="一、安装树莓派系统及配置树莓派"><a href="#一、安装树莓派系统及配置树莓派" class="headerlink" title="一、安装树莓派系统及配置树莓派"></a>一、安装树莓派系统及配置树莓派</h3><h4 id="1、下载树莓派系统"><a href="#1、下载树莓派系统" class="headerlink" title="1、下载树莓派系统"></a>1、下载树莓派系统</h4><h5>Raspberry Pi OS（Raspbian）：</h5>
+                <h3 id="一、安装树莓派系统及配置树莓派"><a href="#一、安装树莓派系统及配置树莓派" class="headerlink" title="一、安装树莓派系统及配置树莓派"></a>一、安装树莓派系统及配置树莓派</h3><h4 id="下载树莓派系统"><a href="#下载树莓派系统" class="headerlink" title="下载树莓派系统"></a>下载树莓派系统</h4><h5>Raspberry Pi OS（Raspbian）：</h5>
 
 <h6>下载地址</h6>
 
@@ -342,38 +342,38 @@
 <pre><code class="hljs">https://kali.download/arm-images/kali-2022.4/kali-linux-2022.4-raspberry-pi-armhf.img.xz（32位）
 https://kali.download/arm-images/kali-2022.4/kali-linux-2022.4-raspberry-pi-arm64.img.xz（64位）
 </code></pre>
-<h4 id="2、下载格式化SD卡工具（SD-Card-Formatter），并格式化SD卡"><a href="#2、下载格式化SD卡工具（SD-Card-Formatter），并格式化SD卡" class="headerlink" title="2、下载格式化SD卡工具（SD Card Formatter），并格式化SD卡"></a>2、下载格式化SD卡工具（SD Card Formatter），并格式化SD卡</h4><h6>下载地址：</h6>
+<h4 id="下载格式化SD卡工具（SD-Card-Formatter），并格式化SD卡"><a href="#下载格式化SD卡工具（SD-Card-Formatter），并格式化SD卡" class="headerlink" title="下载格式化SD卡工具（SD Card Formatter），并格式化SD卡"></a>下载格式化SD卡工具（SD Card Formatter），并格式化SD卡</h4><h6>下载地址：</h6>
 
 <pre><code class="hljs">     https://www.sdcard.org/
 </code></pre>
 <p>下载安装完成后，插入SD卡，打开软件，点击“Format” 即可。</p>
-<h4 id="3、下载系统烧录软件（Win32-Disk-Imager）"><a href="#3、下载系统烧录软件（Win32-Disk-Imager）" class="headerlink" title="3、下载系统烧录软件（Win32 Disk Imager）"></a>3、下载系统烧录软件（Win32 Disk Imager）</h4><h6>下载地址：</h6>
+<h4 id="下载系统烧录软件（Win32-Disk-Imager）"><a href="#下载系统烧录软件（Win32-Disk-Imager）" class="headerlink" title="下载系统烧录软件（Win32 Disk Imager）"></a>下载系统烧录软件（Win32 Disk Imager）</h4><h6>下载地址：</h6>
 
 <pre><code class="hljs">    https://sourceforge.net/projects/win32diskimager/
 </code></pre>
 <p>解压下载好的zip文件得到.img镜像文件然后选好系统文件，选择SD卡设备，点击“写入”。</p>
-<h4 id="4、等待完成"><a href="#4、等待完成" class="headerlink" title="4、等待完成"></a>4、等待完成</h4><h4 id="5、树莓派新系统SSH连接被拒绝的解决方法"><a href="#5、树莓派新系统SSH连接被拒绝的解决方法" class="headerlink" title="5、树莓派新系统SSH连接被拒绝的解决方法"></a>5、树莓派新系统SSH连接被拒绝的解决方法</h4><p>把SD卡拔下来，在电脑下进入到根目录(boot)，新建一个名为ssh的空白文件。</p>
-<h4 id="6、树莓派进行ssh连接"><a href="#6、树莓派进行ssh连接" class="headerlink" title="6、树莓派进行ssh连接"></a>6、树莓派进行ssh连接</h4><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs nginx"><span class="hljs-attribute">sudo</span> service ssh start    <span class="hljs-comment">#打开ssh服务</span><br><br>ssh [用户名]<span class="hljs-variable">@ip</span>地址 -p 端口号<br></code></pre></td></tr></table></figure>
+<h4 id="等待完成"><a href="#等待完成" class="headerlink" title="等待完成"></a>等待完成</h4><h4 id="树莓派新系统SSH连接被拒绝的解决方法"><a href="#树莓派新系统SSH连接被拒绝的解决方法" class="headerlink" title="树莓派新系统SSH连接被拒绝的解决方法"></a>树莓派新系统SSH连接被拒绝的解决方法</h4><p>把SD卡拔下来，在电脑下进入到根目录(boot)，新建一个名为ssh的空白文件。</p>
+<h4 id="树莓派进行ssh连接"><a href="#树莓派进行ssh连接" class="headerlink" title="树莓派进行ssh连接"></a>树莓派进行ssh连接</h4><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs nginx"><span class="hljs-attribute">sudo</span> service ssh start    <span class="hljs-comment">#打开ssh服务</span><br><br>ssh [用户名]<span class="hljs-variable">@ip</span>地址 -p 端口号<br></code></pre></td></tr></table></figure>
 
 
-<h4 id="7、Linux更换国内源"><a href="#7、Linux更换国内源" class="headerlink" title="7、Linux更换国内源"></a>7、Linux更换国内源</h4><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs awk">sudo nano <span class="hljs-regexp">/etc/</span>apt/sources.list<br><br>    deb https:<span class="hljs-regexp">//</span>xxxxxxxxxxxxxxxxx<br>    deb-src https:<span class="hljs-regexp">//</span>xxxxxxxxxxxxxx<br><br>sudo apt-get update &amp;&amp; apt-get upgrade<br><br>sudo apt-get dist-upgrade   <span class="hljs-comment">#重新安装未能安装的应用</span><br></code></pre></td></tr></table></figure>
+<h4 id="Linux更换国内源"><a href="#Linux更换国内源" class="headerlink" title="Linux更换国内源"></a>Linux更换国内源</h4><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs awk">sudo nano <span class="hljs-regexp">/etc/</span>apt/sources.list<br><br>    deb https:<span class="hljs-regexp">//</span>xxxxxxxxxxxxxxxxx<br>    deb-src https:<span class="hljs-regexp">//</span>xxxxxxxxxxxxxx<br><br>sudo apt-get update &amp;&amp; apt-get upgrade<br><br>sudo apt-get dist-upgrade   <span class="hljs-comment">#重新安装未能安装的应用</span><br></code></pre></td></tr></table></figure>
 
-<h4 id="8、提权"><a href="#8、提权" class="headerlink" title="8、提权"></a>8、提权</h4><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs csharp">sudo su    <span class="hljs-meta">#初始化密码可能为：toor</span><br><br>sudo passwd<br><br>[<span class="hljs-meta">sudo</span>] password <span class="hljs-keyword">for</span> xxx:<br><br>（输入新的root密码）<br><br>（确认密码）<br></code></pre></td></tr></table></figure>
+<h4 id="提权"><a href="#提权" class="headerlink" title="提权"></a>提权</h4><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs csharp">sudo su    <span class="hljs-meta">#初始化密码可能为：toor</span><br><br>sudo passwd<br><br>[<span class="hljs-meta">sudo</span>] password <span class="hljs-keyword">for</span> xxx:<br><br>（输入新的root密码）<br><br>（确认密码）<br></code></pre></td></tr></table></figure>
 <h3 id="二、树莓派3b-HDMI不能正常显示"><a href="#二、树莓派3b-HDMI不能正常显示" class="headerlink" title="二、树莓派3b HDMI不能正常显示"></a>二、树莓派3b HDMI不能正常显示</h3><p>&ensp;&ensp;与传统PC不同，树莓派使用<code>config</code>文件来代替传统PC中的BIOS界面，系统配置参数不是使用<code>BIOS（ Basic Input/Output System）</code>进行编辑和存储的，而是存储在一个名为<code>config.txt</code>的可选文本文件中，在ARM CPU和Linux被初始化之前，这是由GPU读取的。因此，它必须位于SD卡的第一个(引导)分区上，与引导代码一起。在 <code>bootcode.bin</code> 和 <code>start.elf</code> 文件的旁边。这个文件通常可以作为<code>/boot/config</code>访问，必须使用root进行编辑。</p>
-<h4 id="1、将sd中的config-txt文件内容替换成"><a href="#1、将sd中的config-txt文件内容替换成" class="headerlink" title="1、将sd中的config.txt文件内容替换成"></a>1、将sd中的config.txt文件内容替换成</h4><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs ini"><span class="hljs-attr">hdmi_force_hotplug</span>=<span class="hljs-number">1</span><br><br><span class="hljs-attr">config_hdmi_boost</span>=<span class="hljs-number">4</span><br><br><span class="hljs-attr">hdmi_group</span>=<span class="hljs-number">2</span><br><br><span class="hljs-attr">hdmi_mode</span>=<span class="hljs-number">9</span><br><br><span class="hljs-attr">hdmi_drive</span>=<span class="hljs-number">2</span><br><br><span class="hljs-attr">hdmi_ignore_edid</span>=<span class="hljs-number">0</span>xa5000080<br><br><span class="hljs-attr">disable_overscan</span>=<span class="hljs-number">1</span><br></code></pre></td></tr></table></figure>
-<h3 id="三、树莓派非官方系统解决-sudo-raspi-config-command-not-found-问题"><a href="#三、树莓派非官方系统解决-sudo-raspi-config-command-not-found-问题" class="headerlink" title="三、树莓派非官方系统解决 sudo: raspi-config: command not found 问题"></a>三、树莓派非官方系统解决 sudo: raspi-config: command not found 问题</h3><h4 id="1、手动下载deb包"><a href="#1、手动下载deb包" class="headerlink" title="1、手动下载deb包"></a>1、手动下载deb包</h4><pre><code class="hljs">wget http://mirrors.ustc.edu.cn/archive.raspberrypi.org/debian/pool/main/r/raspi-config/raspi-config_20221214_all.deb
+<h4 id="将sd中的config-txt文件内容替换成"><a href="#将sd中的config-txt文件内容替换成" class="headerlink" title="将sd中的config.txt文件内容替换成"></a>将sd中的config.txt文件内容替换成</h4><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs ini"><span class="hljs-attr">hdmi_force_hotplug</span>=<span class="hljs-number">1</span><br><br><span class="hljs-attr">config_hdmi_boost</span>=<span class="hljs-number">4</span><br><br><span class="hljs-attr">hdmi_group</span>=<span class="hljs-number">2</span><br><br><span class="hljs-attr">hdmi_mode</span>=<span class="hljs-number">9</span><br><br><span class="hljs-attr">hdmi_drive</span>=<span class="hljs-number">2</span><br><br><span class="hljs-attr">hdmi_ignore_edid</span>=<span class="hljs-number">0</span>xa5000080<br><br><span class="hljs-attr">disable_overscan</span>=<span class="hljs-number">1</span><br></code></pre></td></tr></table></figure>
+<h3 id="三、树莓派非官方系统解决-sudo-raspi-config-command-not-found-问题"><a href="#三、树莓派非官方系统解决-sudo-raspi-config-command-not-found-问题" class="headerlink" title="三、树莓派非官方系统解决 sudo: raspi-config: command not found 问题"></a>三、树莓派非官方系统解决 sudo: raspi-config: command not found 问题</h3><h4 id="手动下载deb包"><a href="#手动下载deb包" class="headerlink" title="手动下载deb包"></a>手动下载deb包</h4><pre><code class="hljs">wget http://mirrors.ustc.edu.cn/archive.raspberrypi.org/debian/pool/main/r/raspi-config/raspi-config_20221214_all.deb
 </code></pre>
-<h4 id="2、解决依赖问题"><a href="#2、解决依赖问题" class="headerlink" title="2、解决依赖问题"></a>2、解决依赖问题</h4><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs apache"><span class="hljs-attribute">sudo</span> apt install lua5.<span class="hljs-number">1</span> libatopology2 libfftw3-single3 libsamplerate0 alsa-utils<br></code></pre></td></tr></table></figure>
-<h4 id="3、安装软件"><a href="#3、安装软件" class="headerlink" title="3、安装软件"></a>3、安装软件</h4><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs css">sudo dpkg -<span class="hljs-selector-tag">i</span> raspi-config_20221214_all<span class="hljs-selector-class">.deb</span><br></code></pre></td></tr></table></figure>
-<h4 id="4、运行raspi-config，需要sudo或以上权限"><a href="#4、运行raspi-config，需要sudo或以上权限" class="headerlink" title="4、运行raspi-config，需要sudo或以上权限"></a>4、运行raspi-config，需要sudo或以上权限</h4><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs arduino">sudo raspi-config<br></code></pre></td></tr></table></figure>
-<h4 id="5、raspi-config能够运行的还有一个重要前提，boot分区已被正常挂载"><a href="#5、raspi-config能够运行的还有一个重要前提，boot分区已被正常挂载" class="headerlink" title="5、raspi-config能够运行的还有一个重要前提，boot分区已被正常挂载"></a>5、raspi-config能够运行的还有一个重要前提，boot分区已被正常挂载</h4><h5 id="（1）先查看一下boot分区所在设备号"><a href="#（1）先查看一下boot分区所在设备号" class="headerlink" title="（1）先查看一下boot分区所在设备号"></a>（1）先查看一下boot分区所在设备号</h5><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">fdisk -l</span><br></code></pre></td></tr></table></figure>
+<h4 id="解决依赖问题"><a href="#解决依赖问题" class="headerlink" title="解决依赖问题"></a>解决依赖问题</h4><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs apache"><span class="hljs-attribute">sudo</span> apt install lua5.<span class="hljs-number">1</span> libatopology2 libfftw3-single3 libsamplerate0 alsa-utils<br></code></pre></td></tr></table></figure>
+<h4 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h4><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs css">sudo dpkg -<span class="hljs-selector-tag">i</span> raspi-config_20221214_all<span class="hljs-selector-class">.deb</span><br></code></pre></td></tr></table></figure>
+<h4 id="运行raspi-config，需要sudo或以上权限"><a href="#运行raspi-config，需要sudo或以上权限" class="headerlink" title="运行raspi-config，需要sudo或以上权限"></a>运行raspi-config，需要sudo或以上权限</h4><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs arduino">sudo raspi-config<br></code></pre></td></tr></table></figure>
+<h4 id="raspi-config能够运行的还有一个重要前提，boot分区已被正常挂载"><a href="#raspi-config能够运行的还有一个重要前提，boot分区已被正常挂载" class="headerlink" title="raspi-config能够运行的还有一个重要前提，boot分区已被正常挂载"></a>raspi-config能够运行的还有一个重要前提，boot分区已被正常挂载</h4><h5 id="（1）先查看一下boot分区所在设备号"><a href="#（1）先查看一下boot分区所在设备号" class="headerlink" title="（1）先查看一下boot分区所在设备号"></a>（1）先查看一下boot分区所在设备号</h5><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">fdisk -l</span><br></code></pre></td></tr></table></figure>
 <h5 id="（2）-再把它挂载到-boot上-以下是示例，不一定是mmcblk0p6，需根据实际情况决定"><a href="#（2）-再把它挂载到-boot上-以下是示例，不一定是mmcblk0p6，需根据实际情况决定" class="headerlink" title="（2） 再把它挂载到&#x2F;boot上(以下是示例，不一定是mmcblk0p6，需根据实际情况决定)"></a>（2） 再把它挂载到&#x2F;boot上(以下是示例，不一定是mmcblk0p6，需根据实际情况决定)</h5><h6>参考：</h6>
 
 <pre><code class="hljs">https://blog.csdn.net/qq_25231683/article/details/120018282
 </code></pre>
 <h3 id="四、树莓派扩容"><a href="#四、树莓派扩容" class="headerlink" title="四、树莓派扩容"></a>四、树莓派扩容</h3><p>&ensp;&ensp;当树莓派默认的系统空间已经被占满，无法再进行安装等操作，而 SD卡仍有空间未被使用，可以对树莓派进行扩容。</p>
 <p>&ensp;&ensp;假设一个镜像的大小为 4G，由于该镜像对内存卡的要求是大于或等于 4G，但对于 4G以上的内存卡来说，树莓派的系统只利用到 4G，因此才有了扩容这种操作。</p>
-<h4 id="1、扩容步骤："><a href="#1、扩容步骤：" class="headerlink" title="1、扩容步骤："></a>1、扩容步骤：</h4><p>&ensp;&ensp;使用树莓派自带的工具可以快速将树莓派挂载所有的 SD卡空间，将系统分区扩展到 SD卡的最大容量。</p>
+<h4 id="扩容步骤："><a href="#扩容步骤：" class="headerlink" title="扩容步骤："></a>扩容步骤：</h4><p>&ensp;&ensp;使用树莓派自带的工具可以快速将树莓派挂载所有的 SD卡空间，将系统分区扩展到 SD卡的最大容量。</p>
 <h5 id="（1）打开raspi-config系统配置工具"><a href="#（1）打开raspi-config系统配置工具" class="headerlink" title="（1）打开raspi-config系统配置工具"></a>（1）打开raspi-config系统配置工具</h5><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs arduino">sudo raspi-config<br></code></pre></td></tr></table></figure>
 <h5 id="（2）选择Advancd-Options："><a href="#（2）选择Advancd-Options：" class="headerlink" title="（2）选择Advancd Options："></a>（2）选择Advancd Options：</h5><h5 id="（3）选择Expand-Filesystem："><a href="#（3）选择Expand-Filesystem：" class="headerlink" title="（3）选择Expand Filesystem："></a>（3）选择Expand Filesystem：</h5><h5 id="（4）Ok："><a href="#（4）Ok：" class="headerlink" title="（4）Ok："></a>（4）Ok：</h5><h5 id="（5）重启树莓派"><a href="#（5）重启树莓派" class="headerlink" title="（5）重启树莓派"></a>（5）重启树莓派</h5><h6>参考：</h6>
 
@@ -384,10 +384,10 @@ https://kali.download/arm-images/kali-2022.4/kali-linux-2022.4-raspberry-pi-arm6
 <pre><code class="hljs">https://blog.csdn.net/zhuoyuedelan/article/details/120684117
 </code></pre>
 <h3 id="六、解决zsh：command-not-found问题"><a href="#六、解决zsh：command-not-found问题" class="headerlink" title="六、解决zsh：command not found问题"></a>六、解决zsh：command not found问题</h3><p><code>zsh: command not found:意思就是找不到这个命令，缺少环境变量的配置</code></p>
-<h4 id="1、打开zsh配置文件"><a href="#1、打开zsh配置文件" class="headerlink" title="1、打开zsh配置文件"></a>1、打开zsh配置文件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo nano ~/.zshrc<br></code></pre></td></tr></table></figure>
-<h4 id="2、添加缺少的文件路径"><a href="#2、添加缺少的文件路径" class="headerlink" title="2、添加缺少的文件路径"></a>2、添加缺少的文件路径</h4><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs routeros"><span class="hljs-attribute">PATH</span>=<span class="hljs-string">&quot;/usr/bin:<span class="hljs-variable">$PATH</span>&quot;</span><br><br><span class="hljs-built_in">export</span> PATH<br></code></pre></td></tr></table></figure>
-<h4 id="3、关闭窗口执行"><a href="#3、关闭窗口执行" class="headerlink" title="3、关闭窗口执行"></a>3、关闭窗口执行</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">source</span> ~/.zshrc<br></code></pre></td></tr></table></figure>
-<h4 id="4、验证是否配置成功"><a href="#4、验证是否配置成功" class="headerlink" title="4、验证是否配置成功"></a>4、验证是否配置成功</h4><figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ada">allure <span class="hljs-comment">--version</span><br></code></pre></td></tr></table></figure>
+<h4 id="打开zsh配置文件"><a href="#打开zsh配置文件" class="headerlink" title="打开zsh配置文件"></a>打开zsh配置文件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo nano ~/.zshrc<br></code></pre></td></tr></table></figure>
+<h4 id="添加缺少的文件路径"><a href="#添加缺少的文件路径" class="headerlink" title="添加缺少的文件路径"></a>添加缺少的文件路径</h4><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs routeros"><span class="hljs-attribute">PATH</span>=<span class="hljs-string">&quot;/usr/bin:<span class="hljs-variable">$PATH</span>&quot;</span><br><br><span class="hljs-built_in">export</span> PATH<br></code></pre></td></tr></table></figure>
+<h4 id="关闭窗口执行"><a href="#关闭窗口执行" class="headerlink" title="关闭窗口执行"></a>关闭窗口执行</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">source</span> ~/.zshrc<br></code></pre></td></tr></table></figure>
+<h4 id="验证是否配置成功"><a href="#验证是否配置成功" class="headerlink" title="验证是否配置成功"></a>验证是否配置成功</h4><figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ada">allure <span class="hljs-comment">--version</span><br></code></pre></td></tr></table></figure>
 <p>&ensp;&ensp;在pycharm中验证安装成功是一样的方法，如果在终端验证成功，pycharm验证不成功，重启pycharm。</p>
 <h3 id="七、SSH连接失败，解决-Host-key-verification-failed"><a href="#七、SSH连接失败，解决-Host-key-verification-failed" class="headerlink" title="七、SSH连接失败，解决 Host key verification failed."></a>七、SSH连接失败，解决 Host key verification failed.</h3><figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs armasm"><span class="hljs-symbol">ssh</span>-keygen -R 你要访问的<span class="hljs-built_in">IP</span>地址<br></code></pre></td></tr></table></figure>
 <h3 id="八、树莓派打开vnc服务"><a href="#八、树莓派打开vnc服务" class="headerlink" title="八、树莓派打开vnc服务"></a>八、树莓派打开vnc服务</h3><p>&ensp;&ensp;树莓派命令行中，输入：</p>
@@ -494,6 +494,12 @@ https://kali.download/arm-images/kali-2022.4/kali-linux-2022.4-raspberry-pi-arm6
                 <div class="post-prevnext my-3">
                   <article class="post-prev col-6">
                     
+                    
+                      <a href="/2023/09/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" title="数据结构">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">数据结构</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
                     
                   </article>
                   <article class="post-next col-6">

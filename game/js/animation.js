@@ -1,4 +1,4 @@
-//通过动画显示数字
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>//通过动画显示数字
 function showNumAnimation(i,j,randomNum){
 	var numCell=$('#c-'+i+'-'+j);
 	numCell.css('background-color',getNumBackgroudColor(randomNum));
