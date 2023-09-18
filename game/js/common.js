@@ -1,4 +1,4 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>//获取移动端尺寸
+//获取移动端尺寸
 //var screenWidth=window.screen.availWidth;/*屏幕宽度*/
 var documentWidth=document.documentElement.clientWidth/*DOM宽度*/
 var containerWidth=documentWidth*0.92;//容器
