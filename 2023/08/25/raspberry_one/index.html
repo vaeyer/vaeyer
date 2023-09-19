@@ -23,11 +23,13 @@
 <meta property="og:site_name" content="一秋小风">
 <meta property="og:description" content="一、安装树莓派系统及配置树莓派下载树莓派系统Raspberry Pi OS（Raspbian）：  下载地址  https:&#x2F;&#x2F;downloads.raspberrypi.org&#x2F;raspios_armhf_latest  默认账号：  &amp;ensp;&amp;ensp;Username: pi Password: raspberry Ubuntu MATE for the Raspberry Pi：  下">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/bg2.jpg">
 <meta property="article:published_time" content="2023-08-25T05:28:06.000Z">
-<meta property="article:modified_time" content="2023-09-17T11:04:52.365Z">
+<meta property="article:modified_time" content="2023-09-19T03:39:38.676Z">
 <meta property="article:author" content="Xiaofeng Qiu">
 <meta property="article:tag" content="树莓派配置">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/img/bg2.jpg">
   
   
   
@@ -203,7 +205,7 @@
                   
                   
                   
-                  <a class="dropdown-item" href="/game/" target="_self">
+                  <a class="dropdown-item" href="/game_2048/" target="_self">
                     
                     <span>小游戏</span>
                   </a>
@@ -521,25 +523,23 @@ https://kali.download/arm-images/kali-2022.4/kali-linux-2022.4-raspberry-pi-arm6
   
     <article id="comments" lazyload>
       
-  <div id="twikoo"></div>
+  <div id="valine"></div>
   <script type="text/javascript">
-    Fluid.utils.loadComments('#comments', function() {
-      Fluid.utils.createScript('https://lib.baomitu.com/twikoo/1.6.8/twikoo.all.min.js', function() {
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
         var options = Object.assign(
-          {"envId":"http://www.yeran.asia/","region":"ap-shanghai","path":"window.location.pathname"},
+          {"appId":"UVYVZIRxRmzkEGCDGiBk2mPU-9Nh9j0Va","appKey":"O5KsCA7QGTvMc6BWZUO5XtDo","path":"window.location.pathname","placeholder":"留言仅限讨论，禁止广告等行为","avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":false,"serverURLs":"https://uvyvzirx.lc-cn-e1-shared.com","emojiCDN":null,"emojiMaps":null,"enableQQ":false},
           {
-            el: '#twikoo',
-            path: 'window.location.pathname',
-            onCommentLoaded: function() {
-              Fluid.utils.listenDOMLoaded(function() {
-                var imgSelector = '#twikoo .tk-content img:not(.tk-owo-emotion)';
-                Fluid.plugins.imageCaption(imgSelector);
-                Fluid.plugins.fancyBox(imgSelector);
-              });
-            }
+            el: "#valine",
+            path: window.location.pathname
           }
         )
-        twikoo.init(options)
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
       });
     });
   </script>
@@ -793,6 +793,13 @@ https://kali.download/arm-images/kali-2022.4/kali-linux-2022.4-raspberry-pi-arm6
   <script  src="/js/local-search.js" ></script>
 
 
+
+
+  
+<script src="//cdn.jsdelivr.net/gh/bynotes/texiao/source/js/love.js"></script>
+<script src="//cdn.jsdelivr.net/gh/bynotes/texiao/source/js/xiaoxingxing.js"></script>
+<script src="//cdn.jsdelivr.net/gh/bynotes/texiao/source/js/xiaoxuehua.js"></script>
+<script src="//cdn.jsdelivr.net/gh/bynotes/texiao/source/js/caidai.js"></script>
 
 
 
